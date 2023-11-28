@@ -11,7 +11,7 @@ fibonacci <- function(n) {
     return(fibonacci(n-1) + fibonacci(n-2))
   }
 }
-# ask the user to enter a number
+# ask the user to enter a number of term
 n= readline(prompt=" Please enter the nth term of the sequence:")
 n= as.integer(n)
 # Loop through the first 20 terms and print them
